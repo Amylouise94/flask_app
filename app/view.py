@@ -8,7 +8,7 @@ def index():
         returnDict = {}
         returnDict['user'] = 'Amy'
         returnDict['title'] = 'Flask Application'
-	returnDict['info'] = systeminfo.main.main()
+		returnDict['info'] = systeminfo.main.main()
         return render_template("index.html", **returnDict)
 
 
